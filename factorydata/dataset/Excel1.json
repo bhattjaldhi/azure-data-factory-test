@@ -1,0 +1,20 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jaldhiloyalistDataLake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "test1",
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "test1",
+				"folderPath": "test"
+			}
+		},
+		"schema": []
+	}
+}
